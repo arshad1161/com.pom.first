@@ -15,5 +15,10 @@ public class Util_methods extends Testbase
 	{
 		driver.manage().timeouts().implicitlyWait(time, TimeUnit.SECONDS);
 	}
+	
+	public void close_window()
+	{
+	  driver.close();
+	}
 
 }
